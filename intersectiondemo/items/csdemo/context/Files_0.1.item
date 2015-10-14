@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="FileParam1" prompt="&quot;people&quot; excel file?" promptNeeded="true" type="id_String" value="C:\csdemo\_people.xlsx"/>
+  <contextParameter comment="" name="FileParam2" prompt="&quot;customers&quot; excel file?" promptNeeded="true" type="id_String" value="C:\csdemo\_customers.xlsx"/>
+  <contextParameter comment="" name="DestFile1" prompt="Output join file?" promptNeeded="true" type="id_String" value="C:\csdemo\intersection.xlsx"/>
+  <contextParameter comment="" name="DestFile2" prompt="Output DIFF file?" promptNeeded="true" type="id_String" value="C:\csdemo\differences.xlsx"/>
+  <contextParameter comment="" name="DestFile2j" prompt="Output DIFFj file?" promptNeeded="true" type="id_String" value="C:\csdemo\differences_java.xlsx"/>
+  <contextParameter comment="" name="DbIterFile" prompt="Output for DB Iterator?" promptNeeded="true" type="id_String" value="C:/csdemo/dbiterator.xlsx"/>
+  <contextParameter comment="" name="FixedWidthLookupFile" prompt="Lookup for FixedWidth File Iterator?" promptNeeded="true" type="id_String" value="C:/csdemo/_bigfile_original"/>
+  <contextParameter comment="" name="FixedWidthIterFile" prompt="Output for FixedWidth File Iterator?" promptNeeded="true" type="id_String" value="C:/csdemo/bigfile_output"/>
+  <contextParameter comment="" name="DestAggFile" prompt="Output aggregate file?" promptNeeded="true" type="id_String" value="c:/csdemo/aggregation.xlsx"/>
+  <contextParameter comment="" name="DestSqlOnExcelFile" prompt="Output for Sql-like query on excel?" promptNeeded="true" type="id_String" value="C:/csdemo/sqlqueryonexcel.xlsx"/>
+  <contextParameter comment="" name="XmlFileParam1" prompt="Main XML CD catalog?" promptNeeded="true" type="id_String" value="C:/csdemo/_cd_catalog.xml"/>
+  <contextParameter comment="" name="XmlFileParam2" prompt="Free XML CD catalog?" promptNeeded="true" type="id_String" value="C:/csdemo/_cd_catalog_free.xml"/>
+  <contextParameter comment="" name="XmlDestFile1" prompt="Output XML join file?" promptNeeded="true" type="id_String" value="C:/csdemo/xml_intersection.xml"/>
+  <contextParameter comment="" name="XmlDestFile2" prompt="Output XML join as Excel file?" promptNeeded="true" type="id_String" value="C:/csdemo/xml_intersection.xlsx"/>
+  <contextParameter comment="" name="XmlDestFile3" prompt="Output Paid XML Catalog?" promptNeeded="true" type="id_String" value="C:/csdemo/cd_catalog_paid.xml"/>
+</talendfile:ContextType>
